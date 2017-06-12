@@ -1,2 +1,2 @@
 # Credo
-Website for Credo Consult Limited for Donna
+Credo is a property management company in Wellington.

@@ -1,0 +1,114 @@
+/* Page Setup ---- Brand Color: rgba(247, 127, 0)*/
+@import url('https://fonts.googleapis.com/css?family=Asap|Roboto:400,700');
+body {
+    background-color: white;
+    color: black;
+}
+.section-option {
+    cursor: pointer;
+}
+.section-option:hover > .section-head{
+    background-color: #c86a04;
+}
+.section-option:hover > .section-head-underline{
+    background-color: #c86a04;
+}
+
+/* Section Headings */
+.section-head {
+    background-color: rgba(247, 127, 0, 1);
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.section-head-underline {
+    width: 100%;
+    height: 10px;
+    background-color: #ff9004;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.contactOption {
+  height: 40px;
+  z-index: 10;
+  background-color: transparent;
+  background: none;
+}
+
+/* Section Body */
+.section-body {
+    padding-top: 20px;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+}
+.expand-text {
+    color: rgba(247, 127, 0, 1);
+}
+.panel {
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+#aboutPanel {
+    cursor: default;
+    border: none;
+}
+
+/* Contact Form */
+.input {
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid rgba(247, 127, 0, 1);
+    border-radius: 5px;
+}
+.input:focus {
+    border: 3px solid rgba(247, 127, 0, 1);
+    outline: none;
+}
+.input-div {
+    padding-bottom: 15px;
+}
+.btn {
+    background-color: rgba(247, 127, 0, 1);
+    color: white !important;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.btn:hover {
+    background-color: #ff9004;
+    outline: none;
+}
+.btn:active {
+    background-color: #ff9004;
+    outline: none;
+}
+.btn:focus {
+    background-color: #ff9004;
+    outline: none;
+}
+#input-description {
+    height: 200px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Footer */
+.footer {
+    background: none;
+    color: #36414a;
+}
+.footer-link {
+    display: inline-block;
+    padding: 10px;
+
+}
+.footer-pic {
+    font-size: 50px;
+    color: #36414a;
+    width: 50px;
+    height: 50px;
+}
